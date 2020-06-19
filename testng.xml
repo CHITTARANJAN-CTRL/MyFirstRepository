@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="reports.Extentreport1" />
+</listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="sdet.TC_006_DataProvider"/>
+      <class name="sdet.TC_001_GetRequest"/>
+      <class name="sdet.TC_002_POST"/> 
+      <class name="sdet.TC_003_GetRequest"/>
+      <class name="sdet.TC_004_GetAllHeaders"/>
+      <class name="sdet.TC_005_GetResponseBody"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
